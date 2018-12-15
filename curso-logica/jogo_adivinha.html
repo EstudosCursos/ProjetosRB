@@ -18,14 +18,19 @@
     }    
 
     var numeroPensado = sorteia(10);
+    var tentativas = 1;
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+    while(tentativas <= 3){
+            var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
-    if(chute == numeroPensado) {
+            if(chute == numeroPensado) {
+                mostra("Uau! Você acertou");
+                break;
+            } else {
 
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
-    } else {
+                mostra("Você errou!");
+            }
 
-        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
-    }
+            tentativas++;
+        }
 </script>
