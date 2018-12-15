@@ -6,6 +6,7 @@
 <script>
 	var segredo = 5;
 	var input = document.querySelector("input");
+	input.focus();
 	
 	function verifica(){
 		if(input.value == segredo){
@@ -13,6 +14,8 @@
 		}else{
 			alert("Você ERROU");
 		}
+		input.value ="";
+		input.focus();
 	}
 	var button = document.querySelector("button");
 	button.onclick = verifica;
