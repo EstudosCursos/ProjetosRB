@@ -1,0 +1,23 @@
+
+public class Cliente implements Autenticavel {
+	
+	private AutenticacaoCache cache;
+	
+	public Cliente(){
+		this.cache = new AutenticacaoCache();
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.cache = senha;
+		}
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.cache.autentica(senha);
+		return autenticou;
+		
+	}
+
+}

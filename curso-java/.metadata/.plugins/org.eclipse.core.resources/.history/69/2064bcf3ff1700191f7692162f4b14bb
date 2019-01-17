@@ -1,0 +1,8 @@
+
+public class Designer {
+	
+	public double getBonificacao(){
+		System.out.println("Editor Video");
+		return super.getBonificacao() + 300;
+	}
+}

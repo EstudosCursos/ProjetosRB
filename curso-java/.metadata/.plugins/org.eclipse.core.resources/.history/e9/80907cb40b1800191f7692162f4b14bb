@@ -1,0 +1,14 @@
+
+public class FuncionarioAutenticavel extends Funcionario {
+
+	public FuncionarioAutenticavel() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

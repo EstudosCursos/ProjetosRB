@@ -1,0 +1,8 @@
+
+public class CalculadorDeImposto {
+
+	public CalculadorDeImposto() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

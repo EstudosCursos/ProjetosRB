@@ -1,0 +1,8 @@
+
+public class AutenticacaoCache {
+
+	public AutenticacaoCache() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
