@@ -1,8 +1,0 @@
-
-public abstract class Tributavel {
-
-	public void getValorImposto(){
-		this.getValorImposto();
-	}
-
-}
