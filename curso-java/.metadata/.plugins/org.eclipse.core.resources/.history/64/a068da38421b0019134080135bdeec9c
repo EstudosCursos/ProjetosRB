@@ -1,0 +1,12 @@
+
+public class TesteSaca {
+	
+	public static void main(String[] args) {
+		Conta cc = new ContaCorrente(1111,111);
+		cc.deposita(2500.0);
+		cc.saca(2700.0);
+		
+		System.out.println(cc.getSaldo());
+	}
+
+}
